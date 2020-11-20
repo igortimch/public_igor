@@ -4,9 +4,9 @@
 #include <iostream>
 using namespace std;
 
-double my_pow(double num, unsigned int iter) {
+double my_pow(double num, int iter) {
     double tempnum = num;
-    for (unsigned int j = 0; j < iter; j++) {
+    for (int j = 0; j < iter; j++) {
         tempnum = tempnum * num;
     }
     return tempnum;
